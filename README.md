@@ -1,4 +1,4 @@
-# McKinsey Front End coding challenge
+# 💻 McKinsey Front End coding challenge
 
 ## Table of contents
 * [Dependencies](#dependencies)

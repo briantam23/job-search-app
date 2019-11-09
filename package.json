@@ -16,7 +16,7 @@
     "start": "node ./server/index.js",
     "webpack": "./node_modules/webpack/bin/webpack.js",
     "build": "npm run webpack -- --watch --mode=development",
-    "start:dev": "npm run build nodemon server/index.js --ignore public --ignore src"
+    "start:dev": "npm run build & nodemon server/index.js --ignore public --ignore src"
   },
   "keywords": [
     "reactjs",
@@ -48,6 +48,8 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-3": "^6.24.1",
+    "css-loader": "^3.2.0",
+    "style-loader": "^1.0.0",
     "webpack": "^4.28.4",
     "webpack-cli": "^3.2.1"
   }
