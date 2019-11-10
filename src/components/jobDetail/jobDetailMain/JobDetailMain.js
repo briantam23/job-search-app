@@ -9,7 +9,10 @@ const JobDetailMain = ({ job }) => {
         <div className={ style.jobDetailMainContainer }>
             <h5>{ interest }</h5>
             <h2>{ title }</h2>
-            <Cities cities={ cities }/>
+            <hr/>
+            <div className={ style.citiesContainer }>
+                <Cities cities={ cities }/>
+            </div>
             <button>Apply Now</button>
         </div>
     )

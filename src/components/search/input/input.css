@@ -1,37 +1,4 @@
 .inputContainer {
     display: flex;
-    background-color: black;
     flex-direction: column;
-}
-
-.inputTopContainer h3 {
-    margin-left: 15px;
-    color: white;
-}
-.inputTopContainer .searchInput {
-    margin: 15px;
-    width: calc(100% - 35px);
-}
-.inputTopContainer .filterContainer {
-    display: flex;
-}
-.inputTopContainer .filterContainer .filterInput {
-    margin: 0px 0px 15px 15px;
-}
-
-.inputBottomContainer {
-    background-color: lightgray;
-    text-align: center;
-}
-.inputBottomContainer h1 {
-    color: blue;
-    font-size: 80px;
-    margin-bottom: 0px;
-}
-.inputBottomContainer h4 {
-    margin: 0px;
-}
-.inputBottomContainer p {
-    font-size: 30px;
-    margin: 5px 0px;
 }

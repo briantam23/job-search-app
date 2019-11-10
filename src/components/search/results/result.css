@@ -1,8 +1,12 @@
 .resultsContainer {
-    margin: 15px;
+    margin: 50px;
+}
+.resultsContainer h5 {
+    font-size: 15px;
 }
 .resultsContainer h2 {
     margin: -12px 0px 2px;
+    font-size: 35px;
 }
 .resultsContainer h2 a {
     text-decoration: none;
@@ -11,4 +15,8 @@
 .resultsContainer h2 a:hover {
     text-decoration: underline;
     color: blue;
+}
+.resultsContainer p {
+    font-size: 16px;
+    line-height: 30px;
 }

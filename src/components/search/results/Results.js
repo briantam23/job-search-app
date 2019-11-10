@@ -16,14 +16,14 @@ const Results = ({ jobs }) => {
                         <Link to={ `/jobs/${job.jobID}` }>{ job.title }</Link>
                     </h2>
                     <TruncateMarkup lines={ 2 } tokenize='words'>
-                        <div>
+                        <p>
                         { 
                             job.whatYouWillDo
                                 .replace(/<p>|<div>/g, '')
                                 .replace(/&nbsp;|<\/p>|<\/div>/g, ' ') 
                                 .replace(/&#39;/g, '\'') 
                         }
-                        </div>
+                        </p>
                     </TruncateMarkup>
                     <Cities cities={ job.cities }/>
                     <hr/>

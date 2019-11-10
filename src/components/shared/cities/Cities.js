@@ -9,7 +9,7 @@ const Cities = ({ cities }) => {
             <h5>
                 <i className="fa fa-map-marker"/>
             </h5>
-                { cities.slice(0, 7).map((city, idx) => <h5 key={ idx }>{ city } | </h5>) }
+                { cities.slice(0, 7).map((city, idx) => <h5 key={ idx }>{ city } &ensp; |</h5>) }
             <h5 className={ style.moreCities }>+{ cities.length - 7 } More</h5>
         </div>
     )

@@ -1,0 +1,24 @@
+.jobDetailQualifications {
+    margin: 70px auto -8px;
+    padding: 30px 140px;
+    width: fit-content;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+.jobDetailQualifications h4 {
+    font-size: 20px;
+}
+
+.jobDetailQualifications ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.jobDetailQualifications li {
+    border-top: 1px solid black;
+    padding: 17px 0px;
+    color: darkslategray;
+    font-size: 22px;
+    text-align: left;
+}

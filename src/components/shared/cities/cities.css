@@ -1,10 +1,13 @@
 .citiesContainer {
     display: flex;
     margin-top: 15px;
+    margin-bottom: 25px;
+
 }
 
 .citiesContainer h5 {
-    margin: 5px 5px 5px 0px;
+    margin: 5px 15px 5px 0px;
+    font-size: 17px;
 }
 .citiesContainer .moreCities {
     text-decoration: underline;

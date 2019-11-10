@@ -1,10 +1,16 @@
 # 💻 McKinsey Front End coding challenge
 
 ## Table of contents
+* [Live Demo](#live-demo)
 * [Dependencies](#dependencies)
 * [Requirements](#requirements)
 * [Installation](#installation)
 * [Running Locally](#running-locally)
+* [Deploying to Heroku](#deploying-to-heroku)
+
+## Live Demo
+
+Currently deployed to [Heroku](https://mckinsey-coding-challenge.herokuapp.com/)!
 
 ## Dependencies
 
@@ -39,3 +45,17 @@ The `npm run start:dev` command will run 2 processes:
 * the Node process for your server with `nodemon`
 
 Your app should now be running on [localhost:3000](http://localhost:3000).
+
+## Deploying to Heroku
+
+Make sure you have the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed.
+
+```
+heroku create
+git push heroku master
+heroku open
+```
+
+Alternatively, you can deploy your own copy of the app using the web-based flow:
+
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)

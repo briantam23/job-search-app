@@ -1,14 +1,22 @@
 .jobDetailMainContainer {
-    margin: auto;
+    margin: 40px auto -8px;
     width: fit-content;
     text-align: center;
 }
+.jobDetailMainContainer h2 {
+    margin-top: 0px;
+    margin-bottom: 60px;
+    font-size: 40px;
+}
+.jobDetailMainContainer .citiesContainer {
+    color: gray;
+}
 .jobDetailMainContainer button {
     margin-top: 20px;
-    background-color: blue;
+    background-color: mediumblue;
     color: white;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 600;
-    padding: 10px 30px;
+    padding: 15px 45px;
     cursor: pointer;
 }
