@@ -1,0 +1,19 @@
+.resultsContainer {
+    margin: 15px;
+}
+.resultsContainer h2{
+    margin: -12px 0px 2px;
+}
+
+.resultsContainer .citiesContainer {
+    display: flex;
+    margin-top: 15px;
+}
+.resultsContainer .citiesContainer h5{
+    margin: 5px 5px 5px 0px;
+}
+.resultsContainer .citiesContainer .moreCities{
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: blue;
+}

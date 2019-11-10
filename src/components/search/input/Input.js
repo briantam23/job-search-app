@@ -2,7 +2,7 @@ import React from 'react';
 import style from './input.css';
 
 
-const Input = () => {
+const Input = ({ jobs }) => {
     return (
         <div className={ style.inputContainer }>
             <div className={ style.inputTopContainer }>
@@ -33,7 +33,7 @@ const Input = () => {
                 </div>
             </div>
             <div className={ style.inputBottomContainer }>
-                <h1>500+</h1>
+                <h1>{ jobs.length }</h1>
                 <h4>Jobs Available</h4>
                 <p>&#x2B07;</p>
             </div>
