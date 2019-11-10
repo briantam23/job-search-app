@@ -1,0 +1,13 @@
+.citiesContainer {
+    display: flex;
+    margin-top: 15px;
+}
+
+.citiesContainer h5 {
+    margin: 5px 5px 5px 0px;
+}
+.citiesContainer .moreCities {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: blue;
+}

@@ -37,7 +37,7 @@
     "express": "^4.16.3",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
-    "react-router-dom": "^4.3.1",
+    "react-router-dom": "^5.0.1",
     "react-truncate-markup": "^4.1.0"
   },
   "devDependencies": {

@@ -1,10 +1,9 @@
 import React, { Fragment } from 'react';
 import Input from './input/Input';
 import Results from './results/Results';
-import jobs from '../../../frontendchallenge.json';
 
 
-const Search = () => {
+const Search = ({ jobs }) => {
     return (
         <Fragment>
             <Input jobs={ jobs }/>

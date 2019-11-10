@@ -1,9 +1,13 @@
 import React from 'react';
+import style from './jobDetail.css';
+import JobDetailMain from './jobDetailMain/JobDetailMain';
 
-
-const JobDetail = () => {
+const JobDetail = ({ jobs, params }) => {
+    const job = jobs.find(job => job.jobID === params.jobID);
     return (
-        <h1>Job Detail</h1>
+        <div className={ style.jobDetailContainer }>
+            <JobDetailMain job={ job }/>
+        </div>
     )
 }
 

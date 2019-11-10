@@ -1,17 +1,20 @@
 import React from 'react';
 import style from './result.css';
+import { Link } from 'react-router-dom';
 import TruncateMarkup from 'react-truncate-markup';
+import Cities from '../../shared/cities/Cities';
 
 
 const Results = ({ jobs }) => {
-    //console.log(jobs)
     return (
         <div className={ style.resultsContainer }>
         {
             jobs.map(job => (
                 <div key={ job.jobID }>
                     <h5>{ job.interest }</h5>
-                    <h2>{ job.title }</h2>
+                    <h2>
+                        <Link to={ `/jobs/${job.jobID}` }>{ job.title }</Link>
+                    </h2>
                     <TruncateMarkup lines={ 2 } tokenize='words'>
                         <div>
                         { 
@@ -22,13 +25,7 @@ const Results = ({ jobs }) => {
                         }
                         </div>
                     </TruncateMarkup>
-                    <div className={ style.citiesContainer }>
-                        <h5>
-                            <i className="fa fa-map-marker"/>
-                        </h5>
-                        { job.cities.slice(0, 7).map((city, idx) => <h5 key={ idx }>{ city } | </h5>) }
-                        <h5 className={ style.moreCities }>+{ job.cities.length - 7 } More</h5>
-                    </div>
+                    <Cities cities={ job.cities }/>
                     <hr/>
                 </div>
             )) 

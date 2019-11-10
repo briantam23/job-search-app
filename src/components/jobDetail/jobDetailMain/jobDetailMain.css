@@ -1,0 +1,14 @@
+.jobDetailMainContainer {
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+}
+.jobDetailMainContainer button {
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 30px;
+    cursor: pointer;
+}
