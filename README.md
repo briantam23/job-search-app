@@ -66,7 +66,7 @@ Alternatively, you can deploy your own copy of the app using the web-based flow:
 
 ## Tests
 
-Created Tests for React Components, the Redux Store, Routes, Models, and Functions:
+Created Tests for React Components, Routes, and Functions:
 
 > To run without "watch mode": 
 ```sh
