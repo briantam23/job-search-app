@@ -6,17 +6,8 @@
 .jobDetailMainContainer h2 {
     margin-top: 0px;
     margin-bottom: 60px;
-    font-size: 40px;
+    font-size: 60px;
 }
 .jobDetailMainContainer .citiesContainer {
     color: gray;
-}
-.jobDetailMainContainer button {
-    margin-top: 20px;
-    background-color: mediumblue;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 15px 45px;
-    cursor: pointer;
 }

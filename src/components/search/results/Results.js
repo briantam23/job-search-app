@@ -13,7 +13,7 @@ const Results = ({ jobs }) => {
                 <div key={ job.jobID }>
                     <h5>{ job.interest }</h5>
                     <h2>
-                        <Link to={ `/jobs/${job.jobID}` }>{ job.title }</Link>
+                        <Link to={ `/jobs/${job.friendlyURL}` }>{ job.title }</Link>
                     </h2>
                     <TruncateMarkup lines={ 2 } tokenize='words'>
                         <p>

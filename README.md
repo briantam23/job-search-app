@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.com/briantam23/mckinsey-coding-challenge.svg?token=qfoyGnbzJbjd9K4Z3Dnz&branch=master)](https://travis-ci.com/briantam23/mckinsey-coding-challenge)
+
+
 # 💻 McKinsey Front End coding challenge
 
 ## Table of contents

@@ -6,7 +6,7 @@ import ReactHtmlParser from 'react-html-parser';
 const JobDetailQualifications = ({ job }) => {
     return (
         <div className={ style.jobDetailQualifications }>
-            <h4>Qualifications</h4>
+            <h4>QUALIFICATIONS</h4>
             { ReactHtmlParser(job.yourBackground) }
         </div>
     )

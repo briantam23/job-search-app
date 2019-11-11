@@ -1,0 +1,23 @@
+.jobDetailBottomContainer1 {
+    margin: 90px 0px 60px;
+    padding: 0px 220px;
+    width: fit-content;
+}
+.jobDetailBottomContainer1 h5 {
+    font-size: 24px;
+    text-align: left;
+}
+
+.jobDetailBottomContainer2 {
+    display: flex;
+    margin-top: -30px;
+    border-bottom: 1px solid gray;
+}
+.jobDetailBottomContainer2 div:first-child {
+    border-right: 1px solid gray;
+}
+
+.jobDetailBottomContainer3 {
+    text-align: center;
+    margin: 70px;
+}

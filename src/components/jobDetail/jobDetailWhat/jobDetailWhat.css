@@ -1,0 +1,23 @@
+.jobDetailWhatContainer {
+    margin: 90px auto -40px;
+    padding: 0px 220px;
+    width: fit-content;
+}
+
+.jobDetailWhatContainer h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.jobDetailWhatContainer p {
+    font-size: 22px;
+    line-height: 30px;
+}
+.jobDetailWhatContainer p:first-of-type {
+    color: mediumblue;
+    font-size: 29px;
+}
+
+.jobDetailWhatContainer hr {
+    margin-top: 70px;
+}

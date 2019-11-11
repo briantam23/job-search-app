@@ -1,6 +1,7 @@
 import React from 'react';
 import style from './jobDetailMain.css';
 import Cities from '../../shared/cities/Cities';
+import Button from '../../shared/button/Button';
 
 
 const JobDetailMain = ({ job }) => {
@@ -13,7 +14,9 @@ const JobDetailMain = ({ job }) => {
             <div className={ style.citiesContainer }>
                 <Cities cities={ cities }/>
             </div>
-            <button>Apply Now</button>
+            <div className={ style.buttonContainer }>
+                <Button text='Apply Now'/>
+            </div>
         </div>
     )
 }

@@ -11,7 +11,7 @@ const App = () => {
         <Router>
             <div className={ style.mainContainer }>
                 <Route exact path='/' render={ () => <Search jobs={ jobs }/> }/>
-                <Route path='/jobs/:jobID' render={ ({ match }) => <JobDetail jobs={ jobs } params={ match.params }/> }/>
+                <Route path='/jobs/:jobFriendlyURL' render={ ({ match }) => <JobDetail jobs={ jobs } params={ match.params }/> }/>
             </div>
         </Router>
     )

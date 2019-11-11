@@ -1,3 +1,23 @@
 .jobDetailWhoContainer {
-    margin: 15px 140px;
+    margin: 90px auto -40px;
+    padding: 0px 220px;
+    width: fit-content;
+}
+
+.jobDetailWhoContainer h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.jobDetailWhoContainer p {
+    font-size: 22px;
+    line-height: 30px;
+}
+.jobDetailWhoContainer p a {
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+}
+
+.jobDetailWhoContainer hr {
+    margin-top: 70px;
 }

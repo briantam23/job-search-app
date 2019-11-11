@@ -9,8 +9,9 @@
     margin: 5px 15px 5px 0px;
     font-size: 17px;
 }
-.citiesContainer .moreCities {
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-color: blue;
+
+.citiesContainer h5 a {
+    text-decoration: none;
+    border-bottom: 2px solid blue;
+    cursor: pointer;
 }
