@@ -1,15 +1,22 @@
 button {
     margin-top: 20px;
     background-color: mediumblue;
-    color: white;
     font-size: 18px;
     font-weight: 600;
     padding: 15px 45px;
     cursor: pointer;
 }
 button:hover {
-    background-color: white;
     color: mediumblue;
+    background-color: white;
     padding: 14px 44px;
     border: 2px solid mediumblue;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+button:hover a {
+    color: mediumblue;
 }

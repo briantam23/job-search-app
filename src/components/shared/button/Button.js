@@ -2,9 +2,13 @@ import React, { Fragment } from 'react';
 import style from './button.css';
 
 
-const Button = ({ text }) => {
+const Button = ({ text, link }) => {
     return (
-        <button>{ text }</button>
+        <button>
+            <a href={ link }>
+                { text }
+            </a>
+        </button>
     )
 }
 

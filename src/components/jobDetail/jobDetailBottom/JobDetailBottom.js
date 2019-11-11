@@ -5,7 +5,7 @@ import Button from '../../shared/button/Button';
 
 
 const JobDetailBottom = ({ job }) => {
-    const { industries, functions } = job;
+    const { industries, functions, jobApplyURL } = job;
     return (
         <div className={ style.jobDetailBottomContainer }>
             <div className={ style.jobDetailBottomContainer1 }>
@@ -17,7 +17,7 @@ const JobDetailBottom = ({ job }) => {
                 <IndustriesFunctions data={ functions } dataType='Functions'/>
             </div>
             <div className={ style.jobDetailBottomContainer3 }>     
-                <Button text='Apply Now'/>
+                <Button text='Apply Now' link={ jobApplyURL }/>
             </div>
         </div>
     )
