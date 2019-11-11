@@ -10,6 +10,7 @@
 * [Installation](#installation)
 * [Running Locally](#running-locally)
 * [Deploying to Heroku](#deploying-to-heroku)
+* [Tests](#tests)
 
 ## Live Demo
 
@@ -62,3 +63,17 @@ heroku open
 Alternatively, you can deploy your own copy of the app using the web-based flow:
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+## Tests
+
+Created Tests for React Components, the Redux Store, Routes, Models, and Functions:
+
+> To run without "watch mode": 
+```sh
+npm test
+``` 
+
+> To run with "watch mode":
+```sh
+npm run test:dev
+```

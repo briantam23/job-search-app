@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import style from './input.css';
 import InputFilter from './inputFilter/InputFilter';
-import { filters } from '../../utils';
+import { filters } from '../../../utils';
 
 
 const Input = ({ jobs, history }) => {

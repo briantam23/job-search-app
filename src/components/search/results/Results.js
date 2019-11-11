@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import TruncateMarkup from 'react-truncate-markup';
 import ResultsTotal from './resultsTotal/ResultsTotal';
 import ResultsList from './resultsList/ResultsList';
-import { searchKeywords, searchFilter } from '../../utils';
+import { searchKeywords, searchFilter } from '../../../utils';
 
 
 const Results = ({ jobs, search }) => {

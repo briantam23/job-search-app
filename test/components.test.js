@@ -4,7 +4,7 @@ import Adapter from 'enzyme-adapter-react-16';
 import { spy } from 'sinon';
 import { expect } from 'chai';
 import App from '../src/components/app/App';
-import InputTop from '../src/components/search/input/inputTop/InputTop';
+import Input from '../src/components/search/input/Input';
 
 
 const adapter = new Adapter();
@@ -21,11 +21,14 @@ describe('The React Components', () => {
         it('renders a <div>', () => expect(appWrapper.find('div')).to.have.length(1));
     })
 
-    describe('<InputTop/> component', () => {
-        let inputTopWrapper;
+    describe('<Input/> component', () => {
+        let inputWrapper;
+        let historySpy;
+        before('Create component', () => {
+            historySpy = spy();
+            inputWrapper = shallow(<Input/>)
+        });
 
-        before('Create component', () => inputTopWrapper = shallow(<InputTop/>));
-
-        it('renders each <button>', () => expect(inputTopWrapper.find('button')).to.have.length(5));
+        it('renders each <button>', () => expect(inputWrapper.find('button')).to.have.length(1));
     })
 })

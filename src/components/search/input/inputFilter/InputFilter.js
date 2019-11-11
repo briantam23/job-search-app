@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import style from './inputFilter.css';
 import { Link } from 'react-router-dom';
-import { findDataType, findFilteredItems } from '../../../utils';
+import { findDataType, findFilteredItems } from '../../../../utils';
 
 
 const InputFilter = ({ jobs, filter }) => {
