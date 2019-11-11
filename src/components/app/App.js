@@ -10,8 +10,8 @@ const App = () => {
     return (
         <Router>
             <div className={ style.mainContainer }>
-                <Route exact path='/' render={ () => <Search jobs={ jobs }/> }/>
-                <Route path='/jobs/:jobFriendlyURL' render={ ({ match }) => <JobDetail jobs={ jobs } params={ match.params }/> }/>
+                <Route exact path='/jobs/:jobFriendlyURL' render={ ({ match }) => <JobDetail jobs={ jobs } params={ match.params }/> }/>
+                <Route path='/' render={ ({ match, history, location }) => <Search jobs={ jobs } params={ match } history={ history } search={ location.search }/> }/>
             </div>
         </Router>
     )

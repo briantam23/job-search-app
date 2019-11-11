@@ -1,0 +1,53 @@
+.inputFilterContainer {
+    margin: 0px 15px;
+    text-align: left;
+    padding-right: 23px;
+    white-space: nowrap;
+    width: 203px;
+}
+.inputFilterContainer input {
+    text-align: left;
+    padding-right: 10px;
+    height: 35px;
+    width: 160px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.inputFilterContainer input::placeholder {
+    padding-left: 10px;
+}
+.inputFilterContainer button, .inputFilterContainer button:hover {
+    height: 41px;
+    padding: 9px 15px 10px;
+    font-size: 17px;
+    background-color: darkgray;
+    border: none;
+}
+
+/* CSS for Dropdown */
+
+.inputFilterList {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.inputFilterList a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.inputFilterList a:hover {
+    background-color: #f1f1f1;
+}
+
+.inputFilterContainer:hover .inputFilterList {
+    display: block;
+}
+
+  

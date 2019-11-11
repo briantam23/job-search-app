@@ -1,10 +1,10 @@
 import React from 'react';
-import style from './inputBottom.css';
+import style from './resultsTotal.css';
 
 
-const InputBottom = ({ jobs }) => {
+const ResultsTotal = ({ jobs }) => {
     return (
-        <div className={ style.inputBottomContainer }>
+        <div className={ style.resultsTotalContainer }>
             <h1>{ jobs.length }</h1>
             <h4>Jobs Available</h4>
             <p>&#x2B07;</p>
@@ -13,4 +13,4 @@ const InputBottom = ({ jobs }) => {
 }
 
 
-export default InputBottom;
+export default ResultsTotal;

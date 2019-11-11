@@ -26,6 +26,6 @@ describe('The React Components', () => {
 
         before('Create component', () => inputTopWrapper = shallow(<InputTop/>));
 
-        it('renders each <button>', () => expect(inputTopWrapper.find('button')).to.have.length(4));
+        it('renders each <button>', () => expect(inputTopWrapper.find('button')).to.have.length(5));
     })
 })

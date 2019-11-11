@@ -1,0 +1,22 @@
+.resultsListContainer {
+    margin: 50px;
+}
+.resultsListContainer h5 {
+    font-size: 15px;
+}
+.resultsListContainer h2 {
+    margin: -12px 0px 2px;
+    font-size: 35px;
+}
+.resultsListContainer h2 a {
+    text-decoration: none;
+    color: black;
+}
+.resultsListContainer h2 a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+.resultsListContainer p {
+    font-size: 16px;
+    line-height: 30px;
+}

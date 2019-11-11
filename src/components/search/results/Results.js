@@ -1,35 +1,23 @@
 import React from 'react';
-import style from './result.css';
+import style from './results.css';
 import { Link } from 'react-router-dom';
 import TruncateMarkup from 'react-truncate-markup';
-import Cities from '../../shared/cities/Cities';
+import ResultsTotal from './resultsTotal/ResultsTotal';
+import ResultsList from './resultsList/ResultsList';
+import { searchKeywords, searchFilter } from '../../utils';
 
 
-const Results = ({ jobs }) => {
+const Results = ({ jobs, search }) => {
+    search = search.replace(/%20/g, ' ');
+
+    search.slice(1, 6) === 'query'
+        ? jobs = searchKeywords(search.slice(7), jobs)
+        // Use split with regex to separate by param & value
+        : jobs = searchFilter(search.split(/[?=]/), jobs)
     return (
         <div className={ style.resultsContainer }>
-        {
-            jobs.map(job => (
-                <div key={ job.jobID }>
-                    <h5>{ job.interest }</h5>
-                    <h2>
-                        <Link to={ `/jobs/${job.friendlyURL}` }>{ job.title }</Link>
-                    </h2>
-                    <TruncateMarkup lines={ 2 } tokenize='words'>
-                        <p>
-                        { 
-                            job.whatYouWillDo
-                                .replace(/<p>|<div>/g, '')
-                                .replace(/&nbsp;|<\/p>|<\/div>/g, ' ') 
-                                .replace(/&#39;/g, '\'') 
-                        }
-                        </p>
-                    </TruncateMarkup>
-                    <Cities cities={ job.cities }/>
-                    <hr/>
-                </div>
-            )) 
-        }
+            <ResultsTotal jobs={ jobs }/>
+            <ResultsList jobs={ jobs }/>
         </div> 
     )
 }
