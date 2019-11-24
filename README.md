@@ -1,7 +1,7 @@
-[![Build Status](https://travis-ci.com/briantam23/mckinsey-coding-challenge.svg?token=qfoyGnbzJbjd9K4Z3Dnz&branch=master)](https://travis-ci.com/briantam23/mckinsey-coding-challenge)
+[![Build Status](https://travis-ci.com/briantam23/job-search-app.svg?token=qfoyGnbzJbjd9K4Z3Dnz&branch=master)](https://travis-ci.com/briantam23/job-search-app)
 
 
-# 💻 McKinsey Front End coding challenge
+# 🔍 Job Search App
 
 ## Table of contents
 * [Live Demo](#live-demo)
@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-Currently deployed to [Heroku](https://mckinsey-coding-challenge.herokuapp.com/)!
+Currently deployed to [Heroku](https://job-search.herokuapp.com/)!
 
 ## Dependencies
 
@@ -30,7 +30,7 @@ Currently deployed to [Heroku](https://mckinsey-coding-challenge.herokuapp.com/)
 
 Step 1: Clone Repo
 ```sh
-git clone https://github.com/briantam23/mckinsey-coding-challenge.git` # or clone your own fork
+git clone https://github.com/briantam23/job-search-app.git` # or clone your own fork
 ```
 
 Step 2: Install `node_modules`

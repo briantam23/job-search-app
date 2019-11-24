@@ -1,15 +1,15 @@
 {
-  "name": "mckinsey-coding-challenge",
+  "name": "job-search-app",
   "author": {
     "name": "Brian Tam",
     "email": "briantam23@gmail.com",
     "url": "https://briantam23.github.io"
   },
   "version": "1.0.0",
-  "description": "McKinsey Front End coding challenge",
+  "description": "Job Search App",
   "repository": {
     "type": "git",
-    "url": "https://github.com/briantam23/mckinsey-coding-challenge.git"
+    "url": "https://github.com/briantam23/job-search-app.git"
   },
   "main": "server/index.js",
   "scripts": {
