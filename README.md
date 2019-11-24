@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-Currently deployed to [Heroku](https://job-search.herokuapp.com/)!
+Currently deployed to [Heroku](https://btam-job-search.herokuapp.com/)!
 
 ## Dependencies
 
